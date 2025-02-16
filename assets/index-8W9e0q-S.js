@@ -27,15 +27,15 @@
   color: white;
   text-decoration: none;
 `,G=p(or)`
-  color: ${e=>e.active?"blue":"white"};
+  color: ${e=>e.active?"#3fa0b3":"white"};
   text-decoration: none;
   &:hover {
-    color: #3fa0b3;
+    color: #61dafb;
   }
 `,ar=p.div`
   display: flex;
   align-items: center;
-`;function cr(){const e=Qe();return X(()=>{console.log("Header 컴포넌트 나타남",e.pathname),Y(()=>{console.log("Header cleanUp 함수")})}),a(ir,{get children(){return[a(sr,{get children(){return[a(lr,{get children(){return a(G,{href:"/",style:{color:"red"},children:"HOME"})}}),a(Q,{get children(){return a(G,{href:"/test",get active(){return e.pathname==="/test"},children:"테스트"})}}),a(Q,{get children(){return a(G,{href:"/testbet",get active(){return e.pathname==="/testbet"},children:"바카라"})}}),a(Q,{get children(){return a(G,{href:"/testcalc",get active(){return e.pathname==="/testcalc"},children:"평단계산기"})}}),a(Q,{get children(){return a(G,{href:"/stockcalc",get active(){return e.pathname==="/stockcalc"},children:"주식계산기"})}})]}}),a(ar,{get children(){return[a(Q,{style:{"margin-right":"10px"},get children(){return a(G,{href:"/signin",get active(){return e.pathname==="/signin"},children:"로그인"})}}),a(Q,{get children(){return a(G,{href:"/signup",get active(){return e.pathname==="/signup"},children:"회원가입"})}})]}})]}})}const ur=()=>{window.open("https://github.com/dwerasd","_blank")},fr=p.div`
+`;function cr(){const e=Qe();return X(()=>{console.log("Header 컴포넌트 나타남",e.pathname),Y(()=>{console.log("Header cleanUp 함수")})}),a(ir,{get children(){return[a(sr,{get children(){return[a(lr,{get children(){return a(G,{href:"/",style:{color:"red"},children:"HOME"})}}),a(Q,{get children(){return a(G,{href:"/testbet",get active(){return e.pathname==="/testbet"},children:"바카라"})}}),a(Q,{get children(){return a(G,{href:"/testcalc",get active(){return e.pathname==="/testcalc"},children:"평단계산기"})}}),a(Q,{get children(){return a(G,{href:"/stockcalc",get active(){return e.pathname==="/stockcalc"},children:"주식계산기"})}}),a(Q,{get children(){return a(G,{href:"/test",get active(){return e.pathname==="/test"},children:"테스트"})}})]}}),a(ar,{get children(){return[a(Q,{style:{"margin-right":"10px"},get children(){return a(G,{href:"/signin",get active(){return e.pathname==="/signin"},children:"로그인"})}}),a(Q,{get children(){return a(G,{href:"/signup",get active(){return e.pathname==="/signup"},children:"회원가입"})}})]}})]}})}const ur=()=>{window.open("https://github.com/dwerasd","_blank")},fr=p.div`
   display: flex;
   flex-direction: row;
   min-height: 5vh;
